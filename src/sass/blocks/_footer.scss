@@ -1,0 +1,53 @@
+.footer {
+    background: #25333C;
+    padding-top: 38px;
+    padding-bottom: 28px;
+    &__top {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__icon {
+        width: 68px;
+    }
+    &__text {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        color: #FFFFFF;
+    }
+    &__divider {
+        margin-top: 26px;
+        height: 1px;
+        width: 100%;
+        background-color: rgba(255, 255, 255, .3);
+    }
+    &__bottom {
+        margin-top: 30px;
+        display: grid;
+        grid-template-columns: auto 1fr auto;
+        grid-auto-rows: auto;
+    }
+    &__website, &__website-link, &__author {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 17px;
+        color: rgba(255, 255, 255, .6);
+    }
+    &__policy {
+        margin: 0 auto;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 17px;
+        color: $main-color;
+        text-decoration: underline;
+    }
+    &__author-link {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 15px;
+    }
+}

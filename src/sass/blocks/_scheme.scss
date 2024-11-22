@@ -1,0 +1,32 @@
+.scheme {
+    padding-top: 52px;
+    padding-bottom: 46px;
+    background: #F3F3F3;
+    &__content-top {
+        margin-top: 29px;
+        display: flex;
+        flex-wrap: wrap;
+        column-gap: 40px;
+        row-gap: 26px;
+        justify-content: center;
+        text-align: center;
+    }
+    &__content-item {
+        flex-basis: 255px;
+    }
+    &__content-title {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 20px;
+        margin: 8px 0 0 0;
+        color: $main-color;
+    }
+    &__content-text {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 20px;
+        color: #3A3A3A;
+    }
+}

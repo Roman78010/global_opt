@@ -1,0 +1,36 @@
+.advantages {
+    padding-top: 60px;
+    padding-bottom: 50px;
+    background-color: rgba(243, 243, 243, 1);
+    &__content {
+        margin-top: 32px;
+        display: grid;
+        grid-template: repeat(4, minmax(63px, auto)) / repeat(2, 515px);
+        grid-auto-rows: minmax(63px, auto);
+        justify-content: center;
+        column-gap: 62px;
+        row-gap: 36px;
+    }
+    &__content-item {
+        display: flex;
+        column-gap: 17px;
+    }
+    &__content-title {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        color: $main-color;
+        margin: 0;
+    }
+    &__content-text {
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 14px;
+        line-height: 22px;
+        color: #3A3A3A;
+    }
+    &__content-img {
+        width: 62px;
+    }
+}

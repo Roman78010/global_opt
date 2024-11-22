@@ -1,0 +1,24 @@
+.call-back {
+    display: flex;
+    column-gap: 20px;
+}
+.call {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    &__text {
+        font-family: 'Roboto';
+        font-size: 14px;
+        font-weight: 300;
+        color: #fff;
+    }
+    &__phone {
+        font-family: 'Roboto';
+        font-size: 19px;
+        font-weight: 700;
+        color: #fff;
+        &:hover {
+            color: #fff;
+        }
+    }
+}

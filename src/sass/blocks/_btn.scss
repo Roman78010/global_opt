@@ -1,0 +1,20 @@
+.btn {
+    display: block;
+    width: 160px;
+    height: 45px;
+    background-color: $main-color;
+    border: transparent;
+    border-radius: 10em;
+    text-transform: uppercase;
+    color: #fff;
+    font-family: 'Roboto';
+    font-size: 13px;
+    font-weight: 400;
+    outline: 0 !important;
+    &:hover {
+        background-color: coral;
+    }
+    &:active {
+        scale: .96;
+    }
+}

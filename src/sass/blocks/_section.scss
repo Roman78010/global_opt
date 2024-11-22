@@ -1,0 +1,39 @@
+.agent {
+    background-image: url(../../img/bg/china.jpeg);
+    height: 338px;
+    padding-top: 78px;
+    padding-bottom: 75px;
+}
+
+.managers {
+    background-image: url(../../img/bg/city.jpeg);
+    height: 342px;
+    padding-top: 84px;
+    padding-bottom: 75px;
+}
+.section {
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    text-align: center;
+    color: #FFFFFF;
+    @include before_circle;
+    &__title {
+        margin: 50px 0 0 0;
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 23px;
+    }
+    &__text {
+        margin-top: 22px;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 19px;
+        line-height: 27px;
+    }
+    &__paragraph {
+        margin: 0;
+    }
+}

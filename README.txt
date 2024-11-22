@@ -1,0 +1,2 @@
+http://web-ildev.ru/glopt/
+Доработать: анимацию меню и всего сайта (transition: all .3s - прописывается элементу без hover-а); source; стрелка вверх (плавный скролл) scroll-behavior: smooth; html тегу; изменить гамбургер;

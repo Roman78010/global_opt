@@ -1,0 +1,56 @@
+.questions {
+    background-image: url(../../img/bg/vessel.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    padding-top: 62px;
+    padding-bottom: 79px;
+    &__form {
+        width: 900px;
+        min-height: 300px;
+        background: rgba(255, 255, 255, .7);
+        margin: 0 auto;
+    }
+    &__form-head {
+        text-align: center;
+        text-transform: uppercase;
+        background: #25333C;
+        color: #FFFFFF;
+        margin-bottom: 17px;
+    } 
+    &__form-title {
+        font-family: 'Roboto';
+        font-weight: 700;
+        font-size: 19px;
+        padding-top: 15px;
+        margin: 0;
+    }
+    &__form-subtitle {
+        font-family: 'Roboto';
+        font-weight: 400;
+        font-size: 14px;
+        padding-bottom: 13px;
+        margin: 0;
+    }
+    &__form-wrapper {
+        display: grid;
+        grid-template: 45px 74px / repeat(3, 268px);
+        justify-content: center;
+        gap: 6px;
+    }
+    .form-textarea {
+        border-radius: 10px;
+        grid-column: 1 / 4;
+        padding: 18px 28px;
+        border: 1px solid rgba(0, 0, 0, 0.21);
+        resize: none;
+        font-family: 'Roboto';
+        font-weight: 300;
+        font-size: 13px;
+        line-height: 24px;
+    }
+    &__form-btn {
+        margin: 16px auto 0;
+        width: 180px;
+    }
+}

@@ -1,0 +1,401 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px;
+    }
+    .hamburger {
+        display: flex;
+        width: 45%;
+    }
+    .header {
+        &__list {
+            display: none;
+        }
+        &__services {
+            gap: 10px;
+        }
+        &__hr {
+            width: 45%;
+        }
+    }
+
+    .advantages {
+        &__content {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .prices {
+        &__content {
+            grid-template: repeat(2, 357px) / repeat(2, 265px);
+            gap: 30px;
+        }
+        &__consultation-form {
+            width: 100%;
+        }
+        &__consultation-btn {
+            top: 143.5px;
+            left: 395px;
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+
+    .hamburger {
+        width: 30%;
+    }
+
+    .header {
+        padding-bottom: 35px;
+        &__global {
+            margin-top: 15px;
+            font-size: 20px;
+            line-height: 20px;
+        }
+        &__title {
+            font-size: 48px;
+            line-height: 52px;
+        }
+        &__subtitle {
+            font-size: 28px;
+        }
+        &__divider {
+            margin-bottom: 40px;
+        }
+        &__services-text {
+            font-size: 14px;
+        }
+        &__btn-bottom {
+            margin-top: 35px;
+        }
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .advantages {
+        padding-top: 50px;
+        padding-bottom: 45px;
+    }
+
+    .subtitle {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    .work {
+        padding-bottom: 45px;
+        &__content {
+            column-gap: 25px;
+        }
+        &__content-title {
+            font-size: 15px;
+            line-height: 20px;
+        }
+        &__content-text {
+            line-height: 19px;
+        }
+    }
+
+    .section {
+        &__title {
+            font-size: 24px;
+            line-height: 23px;
+        }
+        &__text {
+            font-size: 17px;
+            line-height: 25px;
+        }
+    }
+
+    .prices {
+        &__consultation-title {
+            font-size: 22px;
+            line-height: 20px;
+        }
+        &__consultation-form  {
+            grid-template: 45px / repeat(3, 228px);
+        }
+        &__consultation-btn {
+            top: 143.5px;
+            left: 275px;
+        }
+    }
+
+    .questions {
+        &__form {
+            width: 720px;
+        }
+        &__form-wrapper {
+            grid-template-columns: repeat(3, 200px);
+        }
+    }
+
+    .footer {
+        &__text {
+            display: none;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+
+    .hamburger {
+        width: 5%;
+    }
+
+    .header {
+        &__global {
+            margin-top: 20px;
+            font-size: 17px;
+            line-height: 17px;
+        }
+        &__title {
+            margin: 16px 0 0 0;
+            font-size: 40px;
+            line-height: 44px;
+        }
+        &__subtitle {
+            font-size: 22px;
+        }
+        &__hr {
+            width: 50%;
+        }
+        &__services {
+            grid-template: repeat(2, auto) / repeat(2, minmax(auto, 262px));
+            row-gap: 15px;
+        }
+        &__btn-bottom {
+            width: 200px;
+            height: 50px;
+            line-height: 38px;
+        }
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .advantages {
+        padding-top: 45px;
+        padding-bottom: 40px;
+        &__content {
+            grid-template: repeat(8, minmax(63px, auto)) / 1fr;
+        }
+    }
+
+    .work {
+        &__content {
+            flex-wrap: wrap;
+        }
+        &__content-item {
+            flex-basis: 250px;
+        }
+    }
+
+    .prices {
+        &__content {
+            gap: 20px;
+        }
+        &__consultation-form  {
+            grid-template: repeat(3, 45px) / 268px;
+            gap: 10px;
+            padding-bottom: 40px;
+            &:before {
+                transform: translate(-50%, -190%);
+            }
+        }
+        &__consultation-img {
+            transform: translate(-50%, -270%);
+        }
+        &__consultation-btn {
+            top: 243.5px;
+            left: 180px;
+        }
+    }
+
+    .scheme {
+        &__content-top {
+            column-gap: 20px;
+        }
+    }
+
+    .reviews {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .questions {
+        &__form {
+            width: 540px;
+            min-height: 400px
+        }
+        &__form-wrapper {
+            grid-template: repeat(3, 45px) 74px / 268px;
+        }
+        .form-textarea {
+            grid-column: 1 / 2;
+            grid-row: 4 / 5;
+        }
+    }
+}
+
+@media (max-width: 576px) {
+    .container {
+        max-width: 100%;
+        padding: 0 10px;
+    }
+    .menu {
+        &__block {
+            width: 115%;
+            padding-left: 30px;
+        }
+        &__list-link {
+            font-size: 22px;
+        }
+    }
+    .hamburger {
+        width: unset;
+        padding: 20px;
+    }
+    .btn {
+        width: 180px;
+    }
+    .header {
+        &__content-top {
+            flex-direction: column;
+        }
+        &__call-back {
+            flex-direction: column;
+            gap: 10px;
+        }
+        &__call {
+            text-align: center;
+            gap: 5px;
+        }
+        &__call-text {
+            font-size: 18px;
+        }
+        &__call-phone {
+            font-size: 22px;
+        }
+        &__global {
+            display: none;
+        }
+        &__title {
+            font-size: 36px;
+            line-height: 40px;
+        }
+        &__subtitle {
+            margin-top: 15px;
+            font-size: 22px;
+        }
+        &__hr {
+            width: 40%;
+        }
+        &__services {
+            grid-template: repeat(4, auto) / minmax(auto, 262px);
+            justify-content: center;
+            row-gap: 15px;
+        }
+        &__services-text {
+            font-size: 18px;
+        }
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .advantages {
+        padding-top: 30px;
+        padding-bottom: 25px;
+    }
+
+    .work {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &__content {
+            margin-top: 30px;
+        }
+        &__content-item {
+            flex-basis: 300px;
+        }
+    }
+
+    .subtitle {
+        display: none;
+    }
+
+    .section {
+        &__title {
+            font-size: 22px;
+            line-height: 18px;
+        }
+        &__text {
+            font-size: 15px;
+            line-height: 22px;
+        }
+    }
+
+    .prices {
+        &__content {
+            grid-template: repeat(4, 357px) / 265px;
+            gap: 15px;
+        }
+        &__consultation-form {
+            margin: 71px auto 0;
+            width: 300px;
+        }
+        &__consultation-btn {
+            top: 243.5px;
+            left: 60px;
+        }
+    }
+
+    .scheme {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    .reviews {
+        padding-top: 30px;
+        padding-bottom: 30px;
+        &__content {
+            margin-top: 20px;
+            padding: 0 5px;
+        }
+    }
+
+    .questions {
+        padding-top: 30px;
+        padding-bottom: 40px;
+        &__form {
+            width: 300px;
+        }
+    }
+
+    .footer {
+        &__call-back {
+            flex-direction: column;
+            gap: 5px;
+        }
+        &__btn-top {
+            width: 160px;
+        }
+        &__bottom {
+            grid-template: auto auto auto / auto;
+            gap: 5px;
+        }
+        &__policy {
+            margin: 0;
+        }
+    }
+}
